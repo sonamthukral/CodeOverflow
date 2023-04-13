@@ -32,6 +32,8 @@ public class BinSort {
         instructions = "You will be displayed with a set of trash items and it is your job to sort them in their respective bins\n";
         instructions += "\nBins: ";
         instructions += "\n    - green: compost\n    - blue: recyclables\n    - red: hazardous materials\n    - grey: trash";
+
+        addItems();
     }
 
     public void start() {
