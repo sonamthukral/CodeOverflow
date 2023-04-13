@@ -37,7 +37,7 @@ public class Main {
         ArrayList<Item> itemsToBeSorted = b.getListOfRandItems();
 
 
-        for(int i = 0; i < 10; i++) {
+        for(int i = 0; i < 40; i++) {
             Item x = itemsToBeSorted.get(i);
 
             System.out.println("Item #" + (i + 1) + " is " + x);
