@@ -25,14 +25,8 @@ public class Main {
         clearScreen();
 
         if (ans.equals("i")) {
-            System.out.println("You will be displayed with a set of trash items and it is your job to sort them in their respective bins");
-            System.out.println("\nBins: ");
-            System.out.println("    - green: compost");
-            System.out.println("    - blue: recyclables");
-            System.out.println("    - red: hazardous materials");
-            System.out.println("    - grey: trash");
+            System.out.println(b.getInstructions());
 
-            System.out.print("\nPress enter when you're ready ");
             s.nextLine();
         }
 

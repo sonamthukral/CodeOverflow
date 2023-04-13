@@ -12,6 +12,7 @@ public class BinSort {
     private String red;
     private String grey;
     private int score;
+    private String instructions;
 
 
 
@@ -27,6 +28,10 @@ public class BinSort {
         grey = "grey";
 
         score = 0;
+
+        instructions = "You will be displayed with a set of trash items and it is your job to sort them in their respective bins\n";
+        instructions += "\nBins: ";
+        instructions += "\n    - green: compost\n    - blue: recyclables\n    - red: hazardous materials\n    - grey: trash";
     }
 
     public void start() {
@@ -175,6 +180,10 @@ public class BinSort {
 
     public int getScore() {
         return score;
+    }
+
+    public String getInstructions() {
+        return instructions;
     }
 
 }
