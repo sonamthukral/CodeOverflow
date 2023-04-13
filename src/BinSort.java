@@ -69,7 +69,7 @@ public class BinSort {
         Item plasticBottle = new Item("plastic bottle", blue);
         Item jar = new Item("jar", blue);
         Item can = new Item("can", blue);
-        Item plasticCarton = new Item("plastic carton", blue);
+        Item carton = new Item("carton", blue);
         Item cerealBox = new Item("cereal box", blue);
         Item wrappingPaper = new Item("wrapping paper", blue);
         Item paperBag = new Item("paper bag", blue);
@@ -87,7 +87,7 @@ public class BinSort {
 
         //items for redBin
         Item cleaningProduct = new Item("cleaning product", red);
-        Item battery = new Item("lead-acid battery", red);
+        Item medicine = new Item("medicine", red);
         Item paint = new Item("paint", red);
         Item makeup = new Item("makeup", red);
         Item lightBulb = new Item("compact fluorescent light bulb", red);
