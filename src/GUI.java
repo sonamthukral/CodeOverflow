@@ -39,9 +39,9 @@ public class GUI extends JFrame implements ActionListener {
 
         if (text.equals("Instructions")) {
 
-                welcomeTextArea.setFont(new Font("Consolas", Font.PLAIN, 17));
-                welcomeTextArea.setText(binSort.getInstructions());
-                button.setText("Back to Welcome Screen");
+        welcomeTextArea.setFont(new Font("Consolas", Font.PLAIN, 17));
+        welcomeTextArea.setText(binSort.getInstructions());
+        button.setText("Back to Welcome Screen");
 
         } else if (text.equals("Back to Welcome Screen")) {
 
