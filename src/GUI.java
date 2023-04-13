@@ -51,7 +51,7 @@ public class GUI extends JFrame implements ActionListener {
 
         } else if (text.equals("Start Game")) {
 
-            GameWindow gw = new GameWindow();
+            //GameWindow gw = new GameWindow();
 
         }
 

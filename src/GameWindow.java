@@ -1,8 +1,11 @@
 import javax.swing.*;
 
-public class GameWindow extends JFrame{
-
+public class GameWindow extends JFrame {
     private JPanel mainPanel;
+    private JButton greenButton;
+    private JButton blueButton;
+    private JButton redButton;
+    private JButton greyButton;
 
     public GameWindow() {
 
